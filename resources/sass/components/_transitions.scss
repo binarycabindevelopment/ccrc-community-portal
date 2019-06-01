@@ -1,0 +1,12 @@
+.slide-transition-element{
+  transform-origin: top;
+  transition: transform .2s ease-in-out;
+}
+
+.slide-transition-element.fade-leave-active{
+  transition: transform .1s ease-in-out;
+}
+
+.slide-enter, .slide-leave-to{
+  transform: scaleY(0);
+}
